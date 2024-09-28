@@ -1,0 +1,120 @@
+@media only screen and (max-width: 600px) and (min-width: 720px){
+
+    .title{
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    
+    .servicios{
+        height: auto;
+        grid-template-columns: auto auto;
+        width: 97%;
+    }
+    
+    .nosotros{
+        display: grid;
+        align-content: center;
+        grid-template-columns: auto;
+        gap: 5px;
+        padding-top: 100px;
+        margin-top: 100px;
+        /* background-color: var(--secundary-color); */
+        padding-bottom: 10%;
+        background-image: url(../images/edificios.png);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        height: 700px;
+        background-attachment: fixed;
+    }
+    
+    .imagen {
+        height: 300px;
+        width: 400px;
+        border-radius: 10px;
+    }
+    
+    .footer {
+        display: grid;
+        grid-template-columns: auto;
+        background-color: var(--primary-color);
+        text-decoration: none;
+        padding-top: 5%;
+        padding-left: 3%;
+        padding-bottom: 5%;
+        line-height: 1.5em;
+    }
+    
+    nav li{
+        display: inline; /*Muestra la lista en horizontal*/
+        padding: 20px 15px; /*Espaciado entre lineas*/
+        background-color: var(--primary-color);
+    }
+    
+    }
+
+
+
+
+
+    
+    @media only screen and (min-width: 320px){
+
+        header {
+            height: auto;
+            width: auto;
+            border-bottom: 1px solid;
+            border-bottom-color: var(--orange1);
+            background-color: var(--secundary-color);
+        }
+    
+        .title{
+            padding-right: 15%;
+            padding-left: 15%;
+        }
+        
+        .servicios{
+            height: 600px;
+            grid-template-columns: auto auto auto;
+            width: 97%;
+        }
+        
+        .nosotros{
+            display: grid;
+            align-content: center;
+            grid-template-columns: auto;
+            gap: 5px;
+            padding-top: 20%;
+            margin-top: 20%;
+            /* background-color: var(--secundary-color); */
+            padding-bottom: 10%;
+            background-image: url(../images/edificios.png);
+            background-size: 100%;
+            background-repeat: no-repeat;
+            height: 700px;
+            background-attachment: fixed;
+        }
+        
+        .imagen {
+            height: 70%;
+            width: 70%;
+            border-radius: 10px;
+        }
+        
+        .footer {
+            display: grid;
+            grid-template-columns: auto auto;
+            background-color: var(--primary-color);
+            text-decoration: none;
+            padding-top: 5%;
+            padding-left: 3%;
+            padding-bottom: 30%;
+            line-height: 1.5em;
+        }
+        
+        nav li{
+            display: inline; /*Muestra la lista en horizontal*/
+            padding: 20px 10px; /*Espaciado entre lineas*/
+            background-color: var(--primary-color);
+        }
+        
+    }
